@@ -335,7 +335,10 @@ main {
     margin: 0;
   }
 }
-
+strong {
+  font-size: 18px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
 /* Section2 Cards Rubs */
 
 #sectionCardsP {
@@ -399,6 +402,10 @@ main {
   height: 30px;
   padding: 9px;
   border-radius: 7px;
+}
+#markertCar:hover {
+  background-color: #3e3a39;
+  cursor: pointer;
 }
 #buttonMP {
   background-color: white;
